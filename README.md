@@ -21,6 +21,6 @@ npm run build
 ```
 
 You can see the final result here:
-<video src="https://www.youtube.com/watch?v=UYe_P7RNaGg"> 
+<video src="https://www.youtube.com/watch?v=UYe_P7RNaGg">
 
 
