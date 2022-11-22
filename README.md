@@ -1,2 +1,19 @@
-# sockets-bay-vuejs-chat
-Vue 3 + WebSockets: Realtime chat application using SocketsBay.com
+# vue-chat
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
