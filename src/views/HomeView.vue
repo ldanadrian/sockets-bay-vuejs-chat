@@ -24,10 +24,11 @@ export default {
   name: 'HomeView',
   data(){
     return {
-      sockets_bay_api_key: "6789005205adcb7082375db0cac9dd9e", //here you must insert your api key from Sockets Bay
+      //TODO: here you must insert your api key from Sockets Bay. Generate it here: https://socketsbay.com/my-account
+      sockets_bay_api_key: "demo", 
       connection_ready: false,
       connection_error: false,
-      nickname: "Dan",
+      nickname: "",
       websocket: null,
       new_message: "",
       messages: []
@@ -39,7 +40,7 @@ export default {
       if(this.nickname == "") this.nickname = prompt("Enter a nickname:");
 
       //connect to Sockets Bay
-      var sockets_bay_url = `wss://socketsbay.com/wss/v2/100/${this.sockets_bay_api_key}/`;
+      var sockets_bay_url = `wss://socketsbay.com/wss/v2/1/${this.sockets_bay_api_key}/`;
       this.websocket      = new WebSocket(sockets_bay_url);
       //
       this.websocket.onopen    = this.onSocketOpen;
@@ -50,6 +51,7 @@ export default {
       this.connection_ready = true;
     },
     onSocketMessage(evt){
+      console.log(evt.data);
       //we parse the json that we receive
       var received = JSON.parse(evt.data);
       //check if it's our message or from a friend
