@@ -51,7 +51,6 @@ export default {
       this.connection_ready = true;
     },
     onSocketMessage(evt){
-      console.log(evt.data);
       //we parse the json that we receive
       var received = JSON.parse(evt.data);
       //check if it's our message or from a friend
