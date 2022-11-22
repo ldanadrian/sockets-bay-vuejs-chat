@@ -20,7 +20,6 @@ npm run serve
 npm run build
 ```
 
-You can see the final result here:
-<video src="https://www.youtube.com/watch?v=UYe_P7RNaGg">
-
+You can see the final result here, on Youtube:
+[Vue 3+ WebSockets: How to build a realtime chat application in 15 minutes - final result](https://www.youtube.com/watch?v=UYe_P7RNaGg)
 
