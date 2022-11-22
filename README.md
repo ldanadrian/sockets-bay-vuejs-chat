@@ -1,6 +1,11 @@
-# vue-chat
+# Vue 3 chat using websockets
+
+Read more here: 
+[Vue 3+ WebSockets: How to build a realtime chat application in 15 minutes](https://medium.com/@ldanadrian/vue-3-websockets-how-to-build-a-realtime-chat-application-in-15-minutes-3b6a8ae5c08b)
 
 ## Project setup
+git clone this repo first :)
+
 ```
 npm install
 ```
@@ -15,5 +20,7 @@ npm run serve
 npm run build
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+You can see the final result here:
+`video: https://www.youtube.com/watch?v=UYe_P7RNaGg`
+
+
